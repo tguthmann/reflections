@@ -7,3 +7,14 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 - You can run git diff --staged to see all changes that a commit will save.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- Branches would be helpful if you need to make changes that you'd like to test before merging into the master branch.  Branches help because they allow you to put all your changes in a single place without affecting the main branch, which others might be working on.
+
+How do the diagrams help you visualize the branch structure?
+- Diagrams help you determine which changes are on branches vs. those that are on the master.  They also help you to determine which parts of the branch will be affected by changes.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- The result of merging to branches is to combine the changes of both branches so that the final product has all changes.  We represent it in the diagram to emphasize that the changes come from two separate branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- The pros of automatic merging is that the work is done for you.  The con is that it updates the file and you could accidentally leave some text in the file. Always doing merges manually gives you control but can be very tedious and time-consuming if there are lots of changes across many files. 
