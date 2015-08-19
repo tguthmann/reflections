@@ -14,4 +14,9 @@ What is the benefit of having a copy of the last known state of the remote store
   without overwriting anything you may have done locally.  You can then compare the remote to the local to see if updates to the 
   remote will affect what you have done.
   
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+- Collaborating without Git or GitHub would be hard to do if working with many different people who were making changes on the 
+  files or related files.  Without GitHub a file compare could be used to compare changes but this would only work well for 2 
+  people who were making small changes.
+  
   
