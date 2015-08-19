@@ -19,4 +19,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
   files or related files.  Without GitHub a file compare could be used to compare changes but this would only work well for 2 
   people who were making small changes.
   
+When would you want to make changes in a separate branch rather than directly in master? 
+  What benefits does each approach have?
+- You sould want to make changes in a separate branch if you wanted to test out some code.  Making a change in a branch gives you 
+  the option of testing code before you merge it into master.  Making changes in master keeps you from having to do all those
+  steps!
+  
   
