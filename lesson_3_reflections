@@ -9,4 +9,9 @@ Describe the differences between forks, clones, and branches. When would you use
 -clone: a copy of a repository; can reside in GitHub or locally
 -branch: a copy that is part of a single repository
 
-
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- The benefit of having a copy of the last known state of the remote stored locally is that you can retrieve changes from the remote 
+  without overwriting anything you may have done locally.  You can then compare the remote to the local to see if updates to the 
+  remote will affect what you have done.
+  
+  
